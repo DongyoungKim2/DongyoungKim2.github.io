@@ -1,0 +1,155 @@
+
+
+    <!-- Publication -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">PUBLICATIONS</h2>
+                    <h3 class="section-subheading text-muted">Journal Papers / Conference papers / Book / Technical Reports </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+<!--1-------------------------------------------------------------------------------------------------------------->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/reg.PNG" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>IEEE Transactions<br> Medical Imaging</h4>
+                                    <h4 class="subheading"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26641728"> Cramer-Rao Lower Bound for Point Based Image Registration with Heteroscedastic Error Model for Application in Single Molecule Microscopy</a></h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+									Cohen E. A. K.,. Kim D., Ober R.J, Cramer-Rao Lower Bound for Point Based Image Registration with Heteroscedastic Error Model for Application in Single Molecule Microscopy. IEEE Transactions on Medical Imaging 04/2015; DOI:10.1109/TMI.2015.2451513.
+									</p>
+                                </div>
+                            </div>
+                        </li>
+<!--2-------------------------------------------------------------------------------------------------------------->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>International Journal of Cancer</h4>
+                                    <h4 class="subheading"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25471734">Antibody targeting of HER2/HER3 signaling overcomes heregulin-induced resistance to PI3K inhibition in prostate cancer</a></h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+									Poovasery J.S., Kang J.C., Kim D, Ober R.J, Ward E.S. Antibody targeting of HER2/HER3 signaling overcomes heregulin-induced resistance to PI3K inhibition in prostate cancer. International Journal of Cancer 12/2014; 137(2). DOI:10.1002/ijc.29378
+									</p>
+                                </div>
+                            </div>
+                        </li>
+<!--3-------------------------------------------------------------------------------------------------------------->
+
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>MAbs</h4>
+                                    <h4 class="subheading"><a href="https://www.landesbioscience.com/journals/mabs/article/29865/">The level of HER2 expression is a predictor of antibody-HER2 trafficking behavior in cancer cells</a></h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+									Ram S, Kim D, Ober RJ, Ward ES. The level of HER2 expression is a predictor of antibody-HER2 trafficking behavior in cancer cells. mAbs 09/2014; 6(5):1211-9. DOI:10.4161/mabs.29865
+									</p>
+                                </div>
+                            </div>
+                        </li>
+<!--4-------------------------------------------------------------------------------------------------------------->
+
+                        <li  class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>MAbs</h4>
+                                    <h4 class="subheading"><a href = "http://www.ncbi.nlm.nih.gov/pubmed/24492341"> The effect of pH dependence of antibody-antigen interactions on subcellular trafficking dynamics </a></h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+									Devanaboyina SC, Lynch SM, Ober RJ, Ram S, Kim D, Puig-Canto A, Breen S, Kasturirangan S, Fowler S, Peng L, et al. The effect of pH dependence of antibody-antigen interactions on subcellular trafficking dynamics. MAbs [Internet] 2013; 5:851–9.
+									</p>
+                                </div>
+                            </div>
+                        </li>
+<!--5-------------------------------------------------------------------------------------------------------------->
+                        <li>
+                             <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/setup_1.PNG" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Biophysical Journal</h4>
+                                    <h4 class="subheading"><a href="http://www.cell.com/biophysj/abstract/S0006-3495(12)04208-7"> Fast 3D Single Molecule Tracking with Multifocal Plane Microscopy in Polarized Epithelia Reveals a Novel Cellular Process of Intercellular Transfer</a></h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+									Ram S, Kim D, Ober RJ, Ward ES. Fast 3D Single Molecule Tracking with Multifocal Plane Microscopy in Polarized Epithelia Reveals a Novel Cellular Process of Intercellular Transfer. Biophysical Journal 01/2013; 104(2):535-. DOI:10.1016/j.bpj.2012.11.2962
+									</p>
+                                </div>
+                            </div>
+                        </li>
+<!--6-------------------------------------------------------------------------------------------------------------->
+
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Biophysical Journal</h4>
+                                    <h4 class="subheading"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23062352"> 3D Single Molecule Tracking with Multifocal Plane Microscopy Reveals Rapid Intercellular Transferrin Transport at Epithelial Cell Barriers</a></h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+									Ram S, Kim D, Ober RJ, Ward ES. 3D Single Molecule Tracking with Multifocal Plane Microscopy Reveals Rapid Intercellular Transferrin Transport at Epithelial Cell Barriers. Biophys J [Internet] 2012 [cited 2012 Oct 27]; 103:1594–603.
+									</p>
+                                </div>
+                            </div>
+                        </li>
+<!--7-------------------------------------------------------------------------------------------------------------->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/track.PNG" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>International Journal of Cancer</h4>
+                                    <h4 class="subheading"><a href="http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=8757913">3D single molecule tracking of rapid intracellular trafficking imaged by multifocal plane microscopy</a></h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+									Kim D, Ram S, Ober RJ, Ward ES. 3D single molecule tracking of rapid intracellular trafficking imaged by multifocal plane microscopy Microscopy and Microanalysis 18(s2):146-147 · June 2012
+									</p>
+                                </div>
+                            </div>
+                        </li>
+<!--end-------------------------------------------------------------------------------------------------------------->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>more <br> coming
+                                    <br>soon!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- next -->
+            <div class="col-lg-12 text-center">
+                <div class="icon iconNext">
+                    <a href="#contact" class="page-scroll"><i class="fa fa-chevron-down icon-large"></i></a>
+                </div>
+            </div>
+
+    </section>

@@ -4,7 +4,14 @@
 
     <url>
         <loc>https://dongyoungkim2.github.io/tags/AI-NEWS/</loc>
-        <lastmod>2024-06-27T23:30:59.563Z</lastmod>
+        <lastmod>2024-07-02T00:11:30.266Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://dongyoungkim2.github.io/tags/Figma/</loc>
+        <lastmod>2024-07-02T00:00:23.719Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

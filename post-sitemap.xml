@@ -9,8 +9,16 @@
 
 
     <url>
-        <loc>https://dongyoungkim2.github.io/2024/08/09/2024-8-9-AI-NEWS/</loc>
-        <lastmod>2024-08-09T07:19:36.005Z</lastmod>
+        <loc>https://dongyoungkim2.github.io/2024/08/16/2024-8-16-AI-NEWS/</loc>
+        <lastmod>2024-08-15T22:54:37.948Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://dongyoungkim2.github.io/2024/07/10/2024-7-10-AI-NEWS/</loc>
+        <lastmod>2024-08-12T03:13:54.090Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -18,7 +26,15 @@
 
     <url>
         <loc>https://dongyoungkim2.github.io/2024/08/07/2024-8-7-AI-NEWS/</loc>
-        <lastmod>2024-08-07T05:12:49.682Z</lastmod>
+        <lastmod>2024-08-12T03:13:54.089Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://dongyoungkim2.github.io/2024/08/09/2024-8-9-AI-NEWS/</loc>
+        <lastmod>2024-08-09T07:19:36.005Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -59,14 +75,6 @@
     <url>
         <loc>https://dongyoungkim2.github.io/2024/07/12/2024-7-12-AI-NEWS/</loc>
         <lastmod>2024-07-12T06:08:35.500Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://dongyoungkim2.github.io/2024/07/10/2024-7-10-AI-NEWS/</loc>
-        <lastmod>2024-07-10T07:24:34.151Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -169,7 +177,7 @@
     </url>
 
     <url>
-        <loc>https://dongyoungkim2.github.io/2024/05/30/2024-5-30-AI-NEWS/</loc>
+        <loc>https://dongyoungkim2.github.io/2024/05/22/2024-5-22-AI-NEWS/</loc>
         <lastmod>2024-06-13T03:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -185,7 +193,7 @@
     </url>
 
     <url>
-        <loc>https://dongyoungkim2.github.io/2024/05/22/2024-5-22-AI-NEWS/</loc>
+        <loc>https://dongyoungkim2.github.io/2024/05/30/2024-5-30-AI-NEWS/</loc>
         <lastmod>2024-06-13T03:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

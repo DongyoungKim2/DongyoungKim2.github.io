@@ -1,0 +1,161 @@
+<!DOCTYPE html><html lang="ko-KR"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author"><title>2024년 9월 6일 AI 소식 · TECH BLOG  by Dongyoung Kim   Ph.D.</title><meta name="description" content="DeepseekAI는 코딩 작업에 최적화된 모델 DeepSeek v2.5를 출시하여 GPT-4o를 능가하는 성능을 보여주었고, Matt Shumer는 Reflection-Llama 3.1 70B 모델을 공개해 자체 학습과 오류 교정 기술로 뛰어난 성능을 자랑했습니다. "><meta name="keywords"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/blog_basic.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><!-- Google tag (gtag.js)--><script async src="https://www.googletagmanager.com/gtag/js?id=G-Y36E4JYRDG"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-Y36E4JYRDG');</script><meta name="generator" content="Hexo 7.2.0"></head><body><div class="sidebar animated fadeInDown"><div class="logo-title"><div class="title"><img src="/images/logo@2x.png" style="width:157px;"><h3 title=""><a href="/">TECH BLOG  by Dongyoung Kim   Ph.D.</a></h3></div></div><ul class="social-links"></ul><div class="footer"><a target="_blank" href="/"></a><div class="by_farbox"><a href="https://dykim.dev/" target="_blank">© Dongyoung Kim, Ph.D. </a></div></div></div><div class="main"><div class="page-top animated fadeInDown"><div class="nav"><li><a href="/">Home</a></li><li><a href="/about">Curriculum Vitae</a></li><li><a href="/archives">Archive</a></li></div><div class="information"><div class="back_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li></div></div></div><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post animated fadeInDown"><div class="post-title"><h3><a>2024년 9월 6일 AI 소식</a></h3></div><div class="post-content"><p>DeepseekAI는 코딩 작업에 최적화된 모델 DeepSeek v2.5를 출시하여 GPT-4o를 능가하는 성능을 보여주었고, Matt Shumer는 Reflection-Llama 3.1 70B 모델을 공개해 자체 학습과 오류 교정 기술로 뛰어난 성능을 자랑했습니다. IBM은 PowerLM-3B 및 PowerMoE 모델을 통해 자연어 처리 및 코딩 작업에서 강력한 성능을 선보였고, <a target="_blank" rel="noopener" href="http://01.ai/">01.ai</a>는 소형이지만 강력한 Yi-Coder 모델을 발표했습니다. 또한, Anthropic은 기업용 Claude 서비스로 대규모 문맥 처리 및 엔터프라이즈 보안을 강화했고, Google의 Gemini API는 JSON 형식 출력을 지원하는 등 각 기업이 AI 기술의 최신 발전을 공개했습니다.</p>
+<h3 id="DeepseekAI-DeepSeek-v2-5-출시"><a href="#DeepseekAI-DeepSeek-v2-5-출시" class="headerlink" title="DeepseekAI, DeepSeek v2.5 출시"></a>DeepseekAI, DeepSeek v2.5 출시</h3><p><a target="_blank" rel="noopener" href="https://huggingface.co/deepseek-ai/DeepSeek-V2.5">링크</a>, 2024년 9월 6일</p>
+<ul>
+<li><p>DeepSeek v2와 DeepSeek v2 Coder 버전을 통합한 새로운 모델 출시</p>
+</li>
+<li><p>2380억 개의 매개변수 중 210억 개만 활성화되는 MoE(Mixture of Experts) 구조 도입</p>
+</li>
+<li><p>128K 토큰 길이의 문맥 처리 능력 제공, 대규모 프로젝트 수준의 코드 이해 가능</p>
+</li>
+<li><p>GPT-4o 모델을 능가하는 성능, 특히 코딩 작업에서 최적화된 성능 발휘</p>
+</li>
+<li><p>Arena Hard 성능 지표에서 68.3%에서 76.3%로 상승</p>
+</li>
+<li><p>Alpaca Eval 점수 46.61%에서 50.52%로 향상</p>
+</li>
+<li><p>HumanEval에서 89% 정확도, LiveCodeBench에서 41% 달성</p>
+</li>
+<li><p>기능 호출(Function Calling), 중간 채우기(Fill-In-Middle), JSON 출력 지원</p>
+</li>
+<li><p>Hugging Face에서 모델 가중치 제공, Transformer와 호환 가능</p>
+</li>
+</ul>
+<h3 id="Matt-Shumer-Reflection-Llama-3-1-70B"><a href="#Matt-Shumer-Reflection-Llama-3-1-70B" class="headerlink" title="Matt Shumer, Reflection-Llama 3.1 70B"></a>Matt Shumer, Reflection-Llama 3.1 70B</h3><p><a target="_blank" rel="noopener" href="https://huggingface.co/mattshumer/Reflection-Llama-3.1-70B">링크</a>, 2024년 9월 6일</p>
+<ul>
+<li><p>Meta Llama 3 기반의 70억 매개변수 모델 발표</p>
+</li>
+<li><p>Reflection-Tuning 기법을 통해 학습, 모델이 스스로 추론하고 오류를 교정하는 능력 탑재모델이 태그로 추론 과정을 생성태그를 사용해 오류를 발견하고 수정최종 답변은 태그로 제공</p>
+</li>
+<li><p>Claude 3.5 Sonnet과 GPT-4o보다 높은 성능 기록</p>
+</li>
+<li><p>MMLU(Multitask Language Understanding)에서 89.9%, MATH에서 79.7%, IFEval에서 90.1%의 성능 발휘</p>
+</li>
+<li><p>Hugging Face에서 모델 가중치 공개, Transformer와 호환 가능</p>
+</li>
+<li><p>405B 매개변수 버전도 개발 중, 성능의 추가적인 향상 기대</p>
+</li>
+</ul>
+<h3 id="IBM-PowerLM-3B-및-PowerMoE-출시"><a href="#IBM-PowerLM-3B-및-PowerMoE-출시" class="headerlink" title="IBM, PowerLM-3B 및 PowerMoE 출시"></a>IBM, PowerLM-3B 및 PowerMoE 출시</h3><p><a target="_blank" rel="noopener" href="https://huggingface.co/ibm/PowerLM-3b">링크</a>, 2024년 9월 6일</p>
+<ul>
+<li><p>PowerLM-3B는 1조 토큰, PowerMoE-3B는 2.5조 토큰으로 학습된 소형 모델</p>
+</li>
+<li><p>두 단계 학습 스케줄 도입:1단계: 선형적 학습률 상승 후 파워 감쇠 적용2단계: 학습률을 0으로 점차 감소</p>
+</li>
+<li><p>다양한 자연어 처리 및 코드 생성 벤치마크에서 뛰어난 성과 기록</p>
+</li>
+<li><p>모델 성능이 Gemma 및 Qwen과 유사한 수준으로 평가됨</p>
+</li>
+<li><p>Hugging Face에서 모델 가중치 제공, Transformer와 통합 가능</p>
+</li>
+</ul>
+<h3 id="01-ai-Yi-Coder-코드-특화-LLM"><a href="#01-ai-Yi-Coder-코드-특화-LLM" class="headerlink" title="01.ai, Yi-Coder: 코드 특화 LLM"></a>01.ai, Yi-Coder: 코드 특화 LLM</h3><p><a target="_blank" rel="noopener" href="https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md">링크</a>, 2024년 9월 5일</p>
+<ul>
+<li><p>Yi-Coder 시리즈는 1.5B 및 9B 매개변수 모델로 제공, 128K 토큰 문맥 창 지원</p>
+</li>
+<li><p>GitHub와 CommonCrawl에서 수집한 고품질 2.4조 개의 토큰으로 학습</p>
+</li>
+<li><p>LiveCodeBench에서 23.4% 통과율 기록, DeepSeek-Coder 33B보다 높은 성과DeepSeek-Coder 33B의 통과율은 22.3%였음</p>
+</li>
+<li><p>HumanEval에서 85.4%, MBPP에서 73.8%의 정확도 달성</p>
+</li>
+<li><p>CrossCodeEval 벤치마크에서 다른 모델에 비해 뛰어난 성능 발휘</p>
+</li>
+<li><p>코드 편집, 번역, 디버깅 작업에서 우수한 성능을 자랑</p>
+</li>
+</ul>
+<h3 id="Anthropic-Claude-for-Enterprise-출시"><a href="#Anthropic-Claude-for-Enterprise-출시" class="headerlink" title="Anthropic, Claude for Enterprise 출시"></a>Anthropic, Claude for Enterprise 출시</h3><p><a target="_blank" rel="noopener" href="https://www.anthropic.com/news/claude-for-enterprise">링크</a>, 2024년 9월 4일</p>
+<ul>
+<li><p>Claude for Enterprise는 기업을 위한 확장형 AI 서비스로, 500K 토큰 문맥 창 지원</p>
+</li>
+<li><p>GitHub 통합 기능으로 코드베이스와의 효율적인 협업 가능</p>
+</li>
+<li><p>엔터프라이즈급 보안 기능 제공: SSO, 역할 기반 권한 관리, 감사 로그, SCIM 자동화 기능 지원</p>
+</li>
+<li><p>Claude는 대규모 데이터를 처리하면서도 기업의 데이터를 학습에 사용하지 않음으로써 보안 강화</p>
+</li>
+<li><p>GitLab과 Midjourney 같은 초기 사용자들이 긍정적인 피드백 제공</p>
+</li>
+</ul>
+<h3 id="Google-Gemini-API로-JSON-출력-생성"><a href="#Google-Gemini-API로-JSON-출력-생성" class="headerlink" title="Google, Gemini API로 JSON 출력 생성"></a>Google, Gemini API로 JSON 출력 생성</h3><p><a target="_blank" rel="noopener" href="https://ai.google.dev/gemini-api/docs/json-mode?hl=ko">링크</a>, 2024년 9월 4일</p>
+<ul>
+<li><p>Google Gemini API는 다양한 응용 프로그램에서 JSON 형식 출력을 생성할 수 있는 기능 제공</p>
+</li>
+<li><p>뉴스 기사에서 기업 정보를 추출하거나, 레시피 성분을 분석해 데이터베이스를 구축하는 등 다양한 사용 사례 가능</p>
+</li>
+<li><p>API는 JSON 스키마를 통해 보다 구조화된 출력을 제공하며, 사용자는 JSON 형식을 더 명확하게 제어할 수 있음</p>
+</li>
+<li><p>Python, Node.js, Go, Dart, Android, Swift, Web 등 다양한 SDK에서 지원 가능</p>
+</li>
+</ul>
+<h3 id="RWKV-Eagle-7B-모델-출시"><a href="#RWKV-Eagle-7B-모델-출시" class="headerlink" title="RWKV, Eagle 7B 모델 출시"></a>RWKV, Eagle 7B 모델 출시</h3><p><a target="_blank" rel="noopener" href="https://blog.rwkv.com/p/eagle-7b-soaring-past-transformers">링크</a>, 2024년 1월 29일</p>
+<ul>
+<li><p>RWKV-v5 아키텍처 기반의 7.52B 매개변수 모델 발표</p>
+</li>
+<li><p>100개 이상의 언어를 지원하며 1.1조 토큰으로 학습된 다국어 모델</p>
+</li>
+<li><p>Falcon 및 LLaMA2 수준의 성능을 발휘하며 MPT-7B와의 경쟁에서 우수한 성과를 기록</p>
+</li>
+<li><p>멀티링구얼 벤치마크에서 뛰어난 성능을 기록하며, 글로벌 사용자를 위한 저비용 고성능 AI 솔루션 제공</p>
+</li>
+<li><p>특히 인도네시아 NLP 커뮤니티에서 RWKV 기반으로 언어 모델을 성공적으로 구축하여 사용 중</p>
+</li>
+</ul>
+<h3 id="Google-AlphaProteo-연구-발표"><a href="#Google-AlphaProteo-연구-발표" class="headerlink" title="Google, AlphaProteo 연구 발표"></a>Google, AlphaProteo 연구 발표</h3><p><a target="_blank" rel="noopener" href="https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/?utm_source=linkedin&utm_medium=&utm_campaign=gdm&utm_content=">링크</a>, 2024년 9월 5일</p>
+<ul>
+<li><p>AlphaProteo는 새로운 단백질을 설계해 생물학 및 헬스케어 연구에 활용하는 AI 시스템</p>
+</li>
+<li><p>VEGF-A와 같은 암 및 당뇨 관련 단백질 결합체 설계에 성공</p>
+</li>
+<li><p>SARS-CoV-2 스파이크 단백질과도 성공적인 결합을 이루어냄</p>
+</li>
+<li><p>기존의 방법보다 3~300배 더 강력한 결합 친화성을 보이며, 단백질 연구 및 약물 설계에 혁신적 기여</p>
+</li>
+<li><p>Google DeepMind Wet Lab에서 테스트를 통해 효율성을 검증</p>
+</li>
+</ul>
+<h3 id="Nvidia-Generative-AI-교육-키트-출시"><a href="#Nvidia-Generative-AI-교육-키트-출시" class="headerlink" title="Nvidia, Generative AI 교육 키트 출시"></a>Nvidia, Generative AI 교육 키트 출시</h3><p><a target="_blank" rel="noopener" href="https://developer.nvidia.com/blog/nvidia-deep-learning-institute-releases-new-generative-ai-teaching-kit/?ncid=so-link-236440-vt16&linkId=100000285924091">링크</a>, 2024년 9월 4일</p>
+<ul>
+<li><p>Nvidia DLI(Deep Learning Institute)와 Dartmouth College가 협력하여 Generative AI 교육 키트 출시</p>
+</li>
+<li><p>GAN 및 Transformer를 포함한 생성 AI 개념을 교육하는 모듈형 학습 자원 제공</p>
+</li>
+<li><p>실습 중심의 Jupyter 노트북, 강의 슬라이드, 실습 자료, 자율 학습 코스 등 포함</p>
+</li>
+<li><p>Nvidia NeMo 프레임워크를 통해 LLM(대규모 언어 모델) 최적화 및 AI 생성 모델 학습 지원</p>
+</li>
+</ul>
+<h3 id="Meta-AI-기반-효율적-사고-대응-시스템-발표"><a href="#Meta-AI-기반-효율적-사고-대응-시스템-발표" class="headerlink" title="Meta, AI 기반 효율적 사고 대응 시스템 발표"></a>Meta, AI 기반 효율적 사고 대응 시스템 발표</h3><p><a target="_blank" rel="noopener" href="https://engineering.fb.com/2024/06/24/data-infrastructure/leveraging-ai-for-efficient-incident-response/">링크</a>, 2024년 6월 24일</p>
+<ul>
+<li><p>Meta는 AI를 활용하여 시스템 안정성을 강화하는 새로운 사고 대응 시스템을 발표</p>
+</li>
+<li><p>42% 정확도로 코드베이스에서 문제 원인을 빠르게 파악</p>
+</li>
+<li><p>Llama 모델을 활용하여 코드를 분석하고 문제 해결을 돕는 AI 기반 도구 제공</p>
+</li>
+<li><p>수동 검사의 효율성을 높이기 위해 AI가 자동으로 문제를 분석하고 잠재적인 원인을 제시</p>
+</li>
+</ul>
+<h3 id="Critique-out-Loud-Reward-Models-연구-발표"><a href="#Critique-out-Loud-Reward-Models-연구-발표" class="headerlink" title="Critique-out-Loud Reward Models 연구 발표"></a>Critique-out-Loud Reward Models 연구 발표</h3><p><a target="_blank" rel="noopener" href="https://huggingface.co/papers/2408.11791">링크</a>, 2024년 8월 22일</p>
+<ul>
+<li><p>Critique-out-Loud는 보상 모델에서 응답에 대한 비판적 평가를 생성한 후 보상 점수를 예측하는 새로운 접근 방식</p>
+</li>
+<li><p>8B 및 70B 모델에서 각각 4.65%, 5.84%의 성능 향상 기록</p>
+</li>
+<li><p>기존의 보상 모델보다 더 명확하고 투명한 평가 기준 제공</p>
+</li>
+<li><p>Hugging Face에서 연구 결과 공개 및 사용 가능</p>
+</li>
+</ul>
+<h3 id="Anthropic-Meta-프롬프트-오픈-소스화"><a href="#Anthropic-Meta-프롬프트-오픈-소스화" class="headerlink" title="Anthropic, Meta 프롬프트 오픈 소스화"></a>Anthropic, Meta 프롬프트 오픈 소스화</h3><p><a target="_blank" rel="noopener" href="https://github.com/aws-samples/claude-prompt-generator/blob/main/src/metaprompt.txt">링크</a>, 2024년 9월 5일</p>
+<ul>
+<li><p>Anthropic은 Claude의 프롬프트 최적화 도구인 메타 프롬프트를 오픈 소스화</p>
+</li>
+<li><p>AWS Bedrock과 통합 가능하며, 사용자 정의 AI 응답을 최적화하는 데 도움</p>
+</li>
+<li><p>프롬프트 최적화로 Claude 모델의 성능 향상</p>
+</li>
+</ul>
+</div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2024-09-06</span><i class="fa fa-tag"></i><a class="tag" href="/tags/AI-NEWS/" title="AI_NEWS">AI_NEWS </a></div></div></div></div><div class="share"><div class="evernote"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></div><div class="twitter"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=,https://dongyoungkim2.github.io/2024/09/06/2024-9-6-AI-NEWS/,TECH BLOG  by Dongyoung Kim   Ph.D.,2024년 9월 6일 AI 소식,;"></a></div></div><div class="pagination"><ul class="clearfix"><li class="pre pagbuttons"><a class="btn" role="navigation" href="/2024/09/12/2024-9-12-AI-NEWS/" title="2024년 9월 12일 AI 소식">Previous</a></li><li class="next pagbuttons"><a class="btn" role="navigation" href="/2024/09/02/2024-9-2-AI-NEWS/" title="2024년 9월 2일 AI 소식">Next</a></li></ul></div></div></div></div></div><script src="/js/jquery.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script></body></html>

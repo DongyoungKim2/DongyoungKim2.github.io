@@ -9,8 +9,16 @@
 
 
     <url>
-        <loc>https://dongyoungkim2.github.io/2024/09/19/2024-9-19-AI-NEWS/</loc>
-        <lastmod>2024-09-18T23:21:48.044Z</lastmod>
+        <loc>https://dongyoungkim2.github.io/2024/10/04/2024-10-4-AI-NEWS/</loc>
+        <lastmod>2024-10-03T23:54:52.365Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://dongyoungkim2.github.io/2024/09/19/2024-9-19-AI-NEWS%20copy/</loc>
+        <lastmod>2024-10-03T23:30:27.274Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -225,14 +233,6 @@
     </url>
 
     <url>
-        <loc>https://dongyoungkim2.github.io/2024/05/22/2024-5-22-AI-NEWS/</loc>
-        <lastmod>2024-06-13T03:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://dongyoungkim2.github.io/2024/05/26/2024-5-26-AI-NEWS/</loc>
         <lastmod>2024-06-13T03:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -266,6 +266,14 @@
 
     <url>
         <loc>https://dongyoungkim2.github.io/2024/06/10/2024-6-10-AI-NEWS/</loc>
+        <lastmod>2024-06-13T03:51:54.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://dongyoungkim2.github.io/2024/05/22/2024-5-22-AI-NEWS/</loc>
         <lastmod>2024-06-13T03:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -337,14 +345,6 @@
     </url>
 
     <url>
-        <loc>https://dongyoungkim2.github.io/2024/05/20/Google-I-O-2024-%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%A1-%E1%84%8F%E1%85%B5%E1%84%82%E1%85%A9%E1%84%90%E1%85%B3/</loc>
-        <lastmod>2024-06-13T03:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://dongyoungkim2.github.io/2024/05/18/Google-I-O-2024-%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8-%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5/</loc>
         <lastmod>2024-06-13T03:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -354,6 +354,14 @@
 
     <url>
         <loc>https://dongyoungkim2.github.io/2024/05/20/README-md/</loc>
+        <lastmod>2024-06-13T03:51:54.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://dongyoungkim2.github.io/2024/05/20/Google-I-O-2024-%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%A1-%E1%84%8F%E1%85%B5%E1%84%82%E1%85%A9%E1%84%90%E1%85%B3/</loc>
         <lastmod>2024-06-13T03:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
